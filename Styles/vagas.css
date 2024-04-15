@@ -1,0 +1,69 @@
+.vagas__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas__conteudo__texto{
+    font-size: 14px;
+    color: var(--vermelho);
+    background-color: var(--vermelho-fraco);
+    border-radius: 16px;
+    padding: 0.6rem;
+    font-weight: 500;
+}
+
+.vagas__conteudo__titulo{
+    font-size: 36px;
+    color: var(--preto);
+    margin: 1.3rem 0;
+    font-weight: 600;
+}
+
+.vagas__conteudo__subtitulo{
+    font-size: 20px;
+    color: var(--cinza-texto);
+}
+
+.vagas__conteudo__imagem{
+    margin: 4rem 0;
+}
+
+.cargos{
+    padding: 0 22vw;
+}
+
+.card{
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin: 1rem 0;
+    padding: 1.5rem 1.3rem;
+}
+
+.descricao__cargo{
+    display: flex;
+    gap: 1.5rem;
+    color: var(--cinza-texto);
+}
+
+.funcao{
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+    color: var(--preto);
+    font-weight: 600;
+}
+
+.cargos__areas__setor{
+    font-size: 20px;
+    color: var(--preto);
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.design{
+    margin-bottom: 4rem;
+}
+
+.vagas{
+    margin-bottom: 5rem;
+}
